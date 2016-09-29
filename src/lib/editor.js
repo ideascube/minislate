@@ -383,6 +383,8 @@ exports.Editor = Editor;
 
 var controls = {
     Menu: require('./controls').Menu,
+    Dialog: require('./controls').Dialog,
+    Button: require('./controls').Button,
     inline: require('./controls/inline'),
     block: require('./controls/block'),
     media: require('./controls/media')
